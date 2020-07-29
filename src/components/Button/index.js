@@ -1,5 +1,11 @@
 import styled from "styled-components"
 
+/*
+    caso eu quisesse passar o componente Link do react-router-dom, ao invés de ser:
+    - styled.a, é
+    - styled(Link)
+*/
+
 const Button = styled.button`
 color: var(--white);
 border: 1px solid var(--white);

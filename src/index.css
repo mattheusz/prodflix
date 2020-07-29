@@ -23,3 +23,10 @@ body {
 a {
   color: inherit;
 } 
+
+#root{
+  /* como o caveçalho foi definido como fixo, o corpo do página (ou main) teve um paddingTop de 94px definido */
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
